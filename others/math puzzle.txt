@@ -1,0 +1,23 @@
+You have 8 balls. One of the balls is slightly heavier than the others,
+but the difference in weight is not enough that you can tell using your hands. 
+You have a set of scales (the kind of scales that has two sides, and you can put things on each side). 
+
+What is the minimum way of determine the ball that weighs less?   
+
+
+   2     3     4     5
+
+
+weigh twice.
+
+1. split the balls in three groups:3+3+2. Weigh/compare the groups containig three balls. 
+If the scales are even : then split and wheight the third group, containing two balls to 
+determine which ball is havier.
+
+
+2. if one group of three shows that it is havier then the other 3-ball group, then eliminate 
+the light 3-ball group and the 2-ball group. Take 2 balls from the heavier 3-ball group, place 
+them on the scale to determine which one is havier, if even, then the 3rd ball is the one, 
+we are looking for, if not--then - again -you have the heviest ball.
+
+So, the answer is: weigh two times in total.
